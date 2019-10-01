@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    border: 20px solid  rgb(43, 129, 172);
+    background-color: rgb(51, 153, 204);
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: white;
+    min-height: 100%;;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h1 span {
+    font-size: 15px;
+}
+.container {
+    max-width: 1100px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.weather-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    border: 2px solid white;
+}
+
+.weather-list-cell {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: all .1s ease-in;
+}
+.fifty-per {
+    width: 50%;
+}
+.twenty-five-per {
+    width: 25%;
+}
+.hundred-per {
+    width: 100%;
+}
+
+.weather-cell p {
+    opacity: 0.7;
+}
+
+.weather-cell__title {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.wi {
+    font-size: 1.7em;
+    vertical-align: middle;
+}
+
+.lisbon {
+    background-color: rgb(51, 153, 204);
+}
+.paris {
+    background-color: rgb(51, 204, 204);
+}
+.belgrade {
+    background-color: rgb(153, 102, 153);
+}
+.moscow {
+    background-color: rgb(194, 71, 71);
+}
+.tel-aviv {
+    background-color: rgb(226, 103, 74);
+}
+.cair {
+    background-color: rgb(255, 204, 102);
+}
+.new-york {
+    background-color: rgb(153, 204, 153);
+}
+.new-delhi {
+    background-color: rgb(102, 153, 153);
+}
+.san-francisco {
+    background-color: rgb(204, 102, 153);
+}
+.tokyo {
+    background-color: rgb(51, 153, 102);
+}
+.sydney {
+    background-color: rgb(102, 102, 153);
+}
+
+.weather-list:hover .weather-list-cell{
+    opacity: 0.7;
+}
+
+.weather-list .weather-list-cell:hover {
+    opacity: 1;
+}
